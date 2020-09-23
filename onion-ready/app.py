@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import render_template, request, url_for, redirect, jsonify
+from flask import render_template, url_for, jsonify
 from os import system, popen
 
 LIGHT_GPIO = 19
