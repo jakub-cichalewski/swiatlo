@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <link rel="icon"
+        href="{{ url_for('static', filename='favicon.ico') }}">
+
+  <link rel="stylesheet"
+        href="{{ url_for('static', filename='css.css') }}">
+
+  <script type="text/javascript"
+          src="{{ url_for('static', filename='js.js') }}">
+  </script>
+
+  <title> Światło </title>
+</head>
+
+<body onload="get_state()">
+<div id="container">
+  <div id="image">
+    <img id="bulb"
+          src="{{ url_for('static', filename='off.png') }}"
+          draggable="false"
+          onclick="toggle()"
+    />
+  </div>
+
+
+</div>
+</body>
+</html>

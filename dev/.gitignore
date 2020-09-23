@@ -1,0 +1,9 @@
+# virtual environment files
+env/
+
+# system-specific files
+desktop.ini
+
+# byte-compiled / optimized / DLLs
+*/__pycache__/*
+*.py[cod]
