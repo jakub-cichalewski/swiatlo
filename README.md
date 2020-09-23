@@ -4,10 +4,10 @@ A small project that enables me to turn one of my lights on and off via WiFi.
 
 Done with:
 - Hardware
-  - Onion omega 2
-  - 5VDC 10VAC Relay module
+  - Onion Omega 2+
+  - 5VDC 250VAC relay module
 - Software
-  - Python (Flask + GPIO reading and setting via os system and popen)
+  - Python (Flask + GPIO reading and setting via os.system and os.popen)
   - HTML
   - CSS
   - JS
