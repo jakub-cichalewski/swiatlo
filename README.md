@@ -1,4 +1,4 @@
-# Światlo
+# Światło
 
 A small project that enables me to turn one of my lights on and off via WiFi.
 
